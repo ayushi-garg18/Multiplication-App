@@ -23,7 +23,7 @@ const correctAns = num1 * num2;
 
 formElement.addEventListener("submit",()=>{
     const userAns = +inputElement.value;
-    if(userAns==correctAns){
+    if(userAns===correctAns){
         score++;
         updateLocalStorage();
     }
