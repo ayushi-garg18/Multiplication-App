@@ -34,6 +34,6 @@ formElement.addEventListener("submit",()=>{
 });
 
 function updateLocalStorage(){
-    localStorage.getItem("score",JSON.stringify(score));
+    localStorage.SetItem("score",JSON.stringify(score));
 }
 
